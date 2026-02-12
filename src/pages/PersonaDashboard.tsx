@@ -23,9 +23,9 @@ export default function PersonaDashboard() {
     <div className="min-h-screen bg-background">
       <Header theme={theme} toggleTheme={toggle} />
 
-      <main className="max-w-5xl mx-auto px-6 py-16">
+      <main className="max-w-7xl mx-auto px-6 py-16">
         {/* Hero */}
-        <div className="mb-16">
+        <div className="mb-10">
           <p className="label-tracked text-accent mb-4">Your Persona</p>
           <h1 className="font-heading text-[28px] sm:text-[40px] font-bold text-foreground mb-6">
             {persona.name}
@@ -41,7 +41,7 @@ export default function PersonaDashboard() {
         ))}
       </main>
 
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <Footer onRetake={() => navigate("/")} />
       </div>
     </div>

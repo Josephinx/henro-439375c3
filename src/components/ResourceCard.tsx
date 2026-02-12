@@ -10,7 +10,7 @@ export default function ResourceCard({ resource }: ResourceCardProps) {
       href={resource.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="block bg-surface border border-border rounded-lg p-6 hover:border-accent transition-colors duration-200"
+      className="block bg-surface border border-border rounded-lg p-4 hover:border-accent transition-colors duration-200"
     >
       <h3 className="font-heading text-base font-medium text-foreground mb-2">
         {resource.title}
