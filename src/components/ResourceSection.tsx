@@ -10,9 +10,9 @@ export default function ResourceSection({ section }: ResourceSectionProps) {
 
   return (
     <section>
-      <h2 className="label-tracked text-accent mt-16 mb-6">{section.label}</h2>
+      <h2 className="label-tracked text-accent mt-10 mb-4">{section.label}</h2>
       {isGrid ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           {section.items.map((item) => (
             <ResourceCard key={item.title} resource={item} />
           ))}
