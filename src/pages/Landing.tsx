@@ -3,17 +3,24 @@ import HenroLogo from "../components/HenroLogo";
 import { useTheme } from "../hooks/useTheme";
 import ThemeToggle from "../components/ThemeToggle";
 import heroPath from "../assets/hero-path.png";
+import heroPathDark from "../assets/hero-path-dark.png";
 
 export default function Landing() {
   const { theme, toggle } = useTheme();
 
   return (
     <div className="min-h-screen h-screen relative overflow-hidden">
-      {/* Full-screen background image */}
+      {/* Full-screen background image – light */}
       <img
         src={heroPath}
         alt="A lone figure on a winding path toward a mountain with a red sun"
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover dark:hidden"
+      />
+      {/* Full-screen background image – dark */}
+      <img
+        src={heroPathDark}
+        alt="A lone figure on a winding path toward a mountain with a red sun"
+        className="absolute inset-0 w-full h-full object-cover hidden dark:block"
       />
 
       {/* Theme toggle – top left */}
