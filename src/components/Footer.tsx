@@ -13,12 +13,19 @@ export default function Footer({ onRetake }: FooterProps) {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const handleEmail = () => {
-    const subject = encodeURIComponent("Your Henro Persona");
-    const body = encodeURIComponent(
-      `Here is your Henro Persona result: ${window.location.href}`
-    );
-    window.location.href = `mailto:?subject=${subject}&body=${body}`;
+  const handleShare = async () => {
+    const url = window.location.href;
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: "Your Henro Persona", url });
+      } catch {
+        // User cancelled share
+      }
+    } else {
+      const subject = encodeURIComponent("Your Henro Persona");
+      const body = encodeURIComponent(`Here is your Henro Persona result: ${url}`);
+      window.location.href = `mailto:?subject=${subject}&body=${body}`;
+    }
   };
 
   return (
@@ -32,10 +39,10 @@ export default function Footer({ onRetake }: FooterProps) {
             {copied ? "Copied" : "Copy Link"}
           </button>
           <button
-            onClick={handleEmail}
+            onClick={handleShare}
             className="ghost-button-label border border-border px-4 py-2 rounded-lg text-text-secondary hover:border-accent hover:text-accent transition-colors duration-200"
           >
-            Email Link
+            Share
           </button>
         </div>
         <button
