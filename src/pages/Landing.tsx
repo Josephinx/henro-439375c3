@@ -22,11 +22,14 @@ export default function Landing() {
             <h1 className="font-heading text-[28px] sm:text-[36px] font-bold text-foreground leading-tight mb-6">
               Find your path...
             </h1>
+            <p className="font-body text-text-secondary text-base leading-[1.7] mb-4">
+              Freedom tech needs more than code.
+            </p>
+            <p className="font-body text-text-secondary text-base leading-[1.7] mb-4">
+              It needs designers, educators, community builders, policy advocates, and human rights workers.
+            </p>
             <p className="font-body text-text-secondary text-base leading-[1.7] mb-10">
-              The freedom tech movement needs more than code. It needs designers,
-              educators, community builders, policy advocates, and human rights
-              workers. This short survey will help you discover where your skills
-              and instincts fit — and give you the resources to start contributing.
+              Discover where your skills fit and get the resources to start your journey as a contributor.
             </p>
             <Link
               to="/survey"
