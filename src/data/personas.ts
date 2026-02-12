@@ -24,21 +24,30 @@ export const personas: Persona[] = [
     description: "You see the world through systems and structures. When others talk about problems, you reach for a terminal. Your instinct is to build — not for applause, but because open infrastructure is the foundation of freedom. The tools you create become the ground others walk on.",
     sections: [
       {
-        label: "Videos",
+        label: "Courses",
         type: "grid",
         items: [
-          { title: "How Bitcoin Works Under the Hood", description: "A deep technical walkthrough of Bitcoin's protocol design and cryptographic foundations.", url: "https://www.youtube.com/watch?v=bBC-nXj3Ng4" },
-          { title: "The Architecture of Nostr", description: "Understanding the relay-based protocol that enables censorship-resistant social networking.", url: "https://www.youtube.com/results?search_query=nostr+architecture" },
-          { title: "Building with the Lightning Network", description: "Practical introduction to developing payment channels and Lightning applications.", url: "https://www.youtube.com/results?search_query=lightning+network+development" },
+          { title: "Bitcoin Script Specialists", description: "Deep dive into Bitcoin's scripting language and smart contract capabilities.", url: "https://libreriadesatoshi.com/" },
+          { title: "Chaincode Labs Seminars", description: "Structured curriculum for aspiring Bitcoin and Lightning protocol developers.", url: "https://chaincode.com/seminars/" },
+          { title: "B4OS Developer Training", description: "Hands-on developer training for Bitcoin protocol development.", url: "https://www.base58.school/" },
         ],
       },
       {
         label: "Articles",
         type: "grid",
         items: [
-          { title: "The Cathedral and the Bazaar", description: "Eric Raymond's foundational essay on open-source software development methodology.", url: "http://www.catb.org/~esr/writings/cathedral-bazaar/" },
-          { title: "Why Software Is Eating the World", description: "Marc Andreessen's argument for software as critical infrastructure.", url: "https://a16z.com/why-software-is-eating-the-world/" },
-          { title: "Self-Sovereign Identity", description: "Technical overview of decentralised identity systems and their implementation.", url: "https://www.lifewithalacrity.com/article/the-path-to-self-soverereign-identity/" },
+          { title: "Chaincode Labs – Technical Blog", description: "In-depth technical blog posts on Bitcoin protocol development.", url: "https://chaincode.com/" },
+          { title: "Lightning Labs – Engineering Docs", description: "Comprehensive engineering documentation for Lightning Network development.", url: "https://docs.lightning.engineering/" },
+          { title: "Bitcoin Optech – Newsletter", description: "Weekly technical newsletter covering Bitcoin software developments.", url: "https://bitcoinops.org/" },
+        ],
+      },
+      {
+        label: "Videos",
+        type: "grid",
+        items: [
+          { title: "Rene Pickhardt – Lightning Network", description: "Technical deep dives into Lightning Network architecture and research.", url: "https://www.youtube.com/user/renepickhardt" },
+          { title: "Chaincode Labs – Seminar Recordings", description: "Recorded seminars on Bitcoin and Lightning protocol development.", url: "https://chaincode.com/seminars/" },
+          { title: "Andreas Antonopoulos – Mastering Bitcoin", description: "Technical talks on Bitcoin's inner workings and protocol design.", url: "https://www.youtube.com/@aantonop" },
         ],
       },
       {
@@ -46,22 +55,8 @@ export const personas: Persona[] = [
         type: "grid",
         items: [
           { title: "Mastering Bitcoin", description: "Andreas Antonopoulos's comprehensive technical guide to Bitcoin.", url: "https://github.com/bitcoinbook/bitcoinbook" },
-          { title: "The Cypherpunks", description: "The history of cryptography and the movement that shaped digital privacy.", url: "https://www.goodreads.com/book/show/22741975-this-machine-kills-secrets" },
-          { title: "Hacking: The Art of Exploitation", description: "Deep dive into security, networking, and systems-level programming.", url: "https://nostarch.com/hacking2.htm" },
-        ],
-      },
-      {
-        label: "Course",
-        type: "single",
-        items: [
-          { title: "Chaincode Labs Seminars", description: "Structured curriculum for aspiring Bitcoin and Lightning protocol developers.", url: "https://chaincode.com/" },
-        ],
-      },
-      {
-        label: "Community",
-        type: "single",
-        items: [
-          { title: "Bitcoin Dev Mailing List", description: "Where protocol-level discussions and proposals happen in the open.", url: "https://lists.linuxfoundation.org/mailman/listinfo/bitcoin-dev" },
+          { title: "Mastering the Lightning Network", description: "Antonopoulos, Osuntokun & Pickhardt on Lightning protocol internals.", url: "https://github.com/lnbook/lnbook" },
+          { title: "Programming Bitcoin", description: "Jimmy Song's hands-on guide to learning Bitcoin by coding it.", url: "https://programmingbitcoin.com/" },
         ],
       },
     ],
@@ -72,44 +67,39 @@ export const personas: Persona[] = [
     description: "You believe freedom tech fails when people cannot use it. You see interfaces as invitations and clarity as a form of respect. Your work bridges the gap between powerful tools and the people who need them most. Making the complex feel simple is your quiet act of resistance.",
     sections: [
       {
-        label: "Videos",
+        label: "Courses",
         type: "grid",
         items: [
-          { title: "Design for the Real World", description: "How design thinking applies to humanitarian and social challenges.", url: "https://www.youtube.com/results?search_query=design+for+real+world+papanek" },
-          { title: "Accessibility in Open Source", description: "Building inclusive interfaces for freedom tech tools.", url: "https://www.youtube.com/results?search_query=accessibility+open+source+design" },
-          { title: "The UX of Bitcoin Wallets", description: "Analysis of common patterns and failures in cryptocurrency interfaces.", url: "https://www.youtube.com/results?search_query=bitcoin+wallet+ux+design" },
+          { title: "Bitcoin Design Community Guide", description: "Comprehensive guide to designing Bitcoin products and experiences.", url: "https://bitcoin.design/guide/" },
+          { title: "Bitcoin Design – UX Case Studies", description: "Real-world UX case studies from the Bitcoin Design Community.", url: "https://www.youtube.com/@BitcoinDesign" },
+          { title: "Cash App – Product Design Patterns", description: "Study product design patterns from a leading Bitcoin-enabled app.", url: "https://cash.app/" },
         ],
       },
       {
         label: "Articles",
         type: "grid",
         items: [
-          { title: "Bitcoin Design Guide", description: "Community-driven design guidelines for Bitcoin products.", url: "https://bitcoin.design/guide/" },
-          { title: "Designing for Trust", description: "Patterns for building confidence in decentralised applications.", url: "https://bitcoin.design/" },
-          { title: "Inclusive Design Principles", description: "Framework for creating technology that works for everyone.", url: "https://inclusivedesignprinciples.org/" },
+          { title: "Bitcoin Design – Wallet UX Patterns", description: "Design patterns and best practices for Bitcoin wallet interfaces.", url: "https://bitcoin.design/guide/designing-products/wallets/" },
+          { title: "Dan Held – Product Framing Essays", description: "Essays on how to frame and position Bitcoin products.", url: "https://www.danheld.com/blog" },
+          { title: "Bitcoin Design – Daily Spending Wallet", description: "Design guide for building everyday Bitcoin spending wallets.", url: "https://bitcoin.design/guide/daily-spending-wallet/" },
+        ],
+      },
+      {
+        label: "Videos",
+        type: "grid",
+        items: [
+          { title: "Jack Mallers – Strike Product", description: "Product vision and design thinking behind the Strike app.", url: "https://www.youtube.com/@Strike" },
+          { title: "Bitcoin Design Community", description: "Talks and workshops on designing for Bitcoin and freedom tech.", url: "https://www.youtube.com/@BitcoinDesign" },
+          { title: "Christoph Ono – Bitcoin UX Talks", description: "Insights on improving user experience in Bitcoin applications.", url: "https://bitcoin.design/" },
         ],
       },
       {
         label: "Books",
         type: "grid",
         items: [
+          { title: "Designing Interfaces", description: "Jenifer Tidwell's practical patterns for effective interface design.", url: "https://www.oreilly.com/library/view/designing-interfaces-3rd/9781492051954/" },
           { title: "Don't Make Me Think", description: "Steve Krug's seminal work on web usability and intuitive design.", url: "https://sensible.com/dont-make-me-think/" },
-          { title: "Design Justice", description: "Sasha Costanza-Chock on community-led design and structural equity.", url: "https://designjustice.org/" },
           { title: "The Design of Everyday Things", description: "Don Norman's exploration of human-centred design principles.", url: "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things" },
-        ],
-      },
-      {
-        label: "Course",
-        type: "single",
-        items: [
-          { title: "Bitcoin Design Community", description: "Contribute to open design projects and learn alongside practitioners.", url: "https://bitcoin.design/" },
-        ],
-      },
-      {
-        label: "Community",
-        type: "single",
-        items: [
-          { title: "Open Source Design", description: "Global community improving design in free and open-source software.", url: "https://opensourcedesign.net/" },
         ],
       },
     ],
@@ -120,44 +110,39 @@ export const personas: Persona[] = [
     description: "You know that technology alone changes nothing. People change things. Your gift is bringing the right people together, creating spaces where knowledge flows and trust builds. You are the connective tissue that turns tools into movements.",
     sections: [
       {
-        label: "Videos",
+        label: "Courses",
         type: "grid",
         items: [
-          { title: "Building Bitcoin Communities", description: "Lessons from grassroots Bitcoin adoption efforts worldwide.", url: "https://www.youtube.com/results?search_query=bitcoin+community+building" },
-          { title: "The Power of Meetups", description: "How local gatherings drive global adoption of freedom tech.", url: "https://www.youtube.com/results?search_query=bitcoin+meetup+organising" },
-          { title: "Community-Led Development", description: "Frameworks for technology projects driven by their users.", url: "https://www.youtube.com/results?search_query=community+led+development" },
+          { title: "Bitcoin and Lightning Payments for Business", description: "Learn how to integrate Bitcoin and Lightning payments into your community.", url: "https://libreriadesatoshi.com/" },
+          { title: "Nostr: What, How, Why?", description: "Understanding the decentralised social protocol for community building.", url: "https://libreriadesatoshi.com/" },
+          { title: "PlanB Network – Onboarding Materials", description: "Ready-made materials for onboarding newcomers to Bitcoin.", url: "https://planb.network/" },
         ],
       },
       {
         label: "Articles",
         type: "grid",
         items: [
-          { title: "How to Start a Bitcoin Meetup", description: "Practical guide to organising local freedom tech gatherings.", url: "https://bitcoin.design/" },
-          { title: "The Mushroom Model of Community", description: "Understanding organic, decentralised community growth.", url: "https://blog.holacracy.org/" },
-          { title: "Collective Action in Open Source", description: "How volunteers coordinate to build shared digital infrastructure.", url: "https://www.fordfoundation.org/work/learning/research-reports/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure/" },
+          { title: "Bitcoin Beach – Community Adoption Story", description: "How a small community in El Salvador pioneered Bitcoin adoption.", url: "https://bitcoinbeach.com/" },
+          { title: "PlanB Network – Meetup Guides", description: "Practical guides for organising Bitcoin meetups and events.", url: "https://planb.network/" },
+          { title: "Bitcoin Magazine – Local Meetup Case Studies", description: "Stories and lessons from Bitcoin meetup organisers worldwide.", url: "https://bitcoinmagazine.com/" },
+        ],
+      },
+      {
+        label: "Videos",
+        type: "grid",
+        items: [
+          { title: "Bitcoin Beach – Dare to Dream", description: "Documentary on grassroots Bitcoin adoption in El Salvador.", url: "https://daretodream-film.com/" },
+          { title: "Jack Dorsey – Open Source and Bitcoin", description: "On the intersection of open-source development and Bitcoin.", url: "https://bitcoinmagazine.com/culture/the-jack-dorsey-bitcoin-interview" },
+          { title: "Oslo Freedom Forum – Community Panels", description: "Panel discussions on building freedom tech communities.", url: "https://oslofreedomforum.com/" },
         ],
       },
       {
         label: "Books",
         type: "grid",
         items: [
-          { title: "The Art of Gathering", description: "Priya Parker on creating purposeful, transformative gatherings.", url: "https://www.priyaparker.com/" },
-          { title: "Building Successful Communities", description: "Jono Bacon's guide to nurturing open-source communities.", url: "https://www.jonobacon.com/" },
-          { title: "The Starfish and the Spider", description: "How decentralised organisations change the world.", url: "https://www.goodreads.com/book/show/21314.The_Starfish_and_the_Spider" },
-        ],
-      },
-      {
-        label: "Course",
-        type: "single",
-        items: [
-          { title: "Community Building Fundamentals", description: "Learn to create and sustain meaningful technology communities.", url: "https://www.communitybuilding.co/" },
-        ],
-      },
-      {
-        label: "Community",
-        type: "single",
-        items: [
-          { title: "Bitcoin Meetup Network", description: "Connect with organisers running local Bitcoin and freedom tech events worldwide.", url: "https://bitcoin.org/en/events" },
+          { title: "The Art of Community", description: "Jono Bacon's guide to nurturing open-source communities.", url: "https://www.jonobacon.com/" },
+          { title: "Broken Money", description: "Lyn Alden on the history and future of monetary systems.", url: "https://www.lynalden.com/broken-money/" },
+          { title: "The Internet of Money", description: "Andreas Antonopoulos on why Bitcoin matters beyond technology.", url: "https://theinternetofmoney.info/" },
         ],
       },
     ],
@@ -168,44 +153,39 @@ export const personas: Persona[] = [
     description: "You operate in the space between technology and governance. You understand that code has consequences and that laws shape who gets to run it. Your work ensures that the rights encoded in software are reflected in the systems that govern our lives.",
     sections: [
       {
-        label: "Videos",
+        label: "Courses",
         type: "grid",
         items: [
-          { title: "Digital Rights and Policy", description: "How legislation shapes the future of privacy and encryption.", url: "https://www.youtube.com/results?search_query=digital+rights+policy" },
-          { title: "The Right to Encrypt", description: "Why end-to-end encryption is a fundamental rights issue.", url: "https://www.youtube.com/results?search_query=right+to+encrypt" },
-          { title: "Bitcoin and Regulation", description: "Understanding the global regulatory landscape for open money.", url: "https://www.youtube.com/results?search_query=bitcoin+regulation+policy" },
+          { title: "Bitcoin Core Principles", description: "Foundational course on Bitcoin's technical and philosophical principles.", url: "https://libreriadesatoshi.com/" },
+          { title: "Coin Center – Policy Resources", description: "Educational resources on cryptocurrency policy and regulation.", url: "https://www.coincenter.org/education/" },
+          { title: "Bitcoin Policy Institute", description: "Research and education on Bitcoin's role in public policy.", url: "https://www.btcpolicy.org/" },
         ],
       },
       {
         label: "Articles",
         type: "grid",
         items: [
-          { title: "EFF: Digital Privacy", description: "Electronic Frontier Foundation's analysis of digital privacy legislation.", url: "https://www.eff.org/issues/privacy" },
-          { title: "Coin Center Policy Papers", description: "Research on cryptocurrency regulation and digital rights.", url: "https://www.coincenter.org/research/" },
-          { title: "A Cypherpunk's Manifesto", description: "Eric Hughes's foundational text on privacy as a right.", url: "https://www.activism.net/cypherpunk/manifesto.html" },
+          { title: "Coin Center – Policy Analysis", description: "In-depth analysis of cryptocurrency regulation and digital rights.", url: "https://www.coincenter.org/" },
+          { title: "Human Rights Foundation – Policy Briefs", description: "Policy briefs on financial freedom and human rights.", url: "https://hrf.org/programs/financial-freedom/" },
+          { title: "Bitcoin Policy Institute – Research", description: "Academic research on Bitcoin regulation and policy frameworks.", url: "https://www.btcpolicy.org/research" },
+        ],
+      },
+      {
+        label: "Videos",
+        type: "grid",
+        items: [
+          { title: "Oslo Freedom Forum – Financial Freedom", description: "Talks on financial freedom, policy, and human rights.", url: "https://oslofreedomforum.com/" },
+          { title: "Nic Carter – Regulatory Analysis", description: "Analysis of Bitcoin's regulatory landscape and policy implications.", url: "https://niccarter.info/" },
+          { title: "Human Rights Foundation – Bitcoin Panels", description: "Panel discussions on Bitcoin, policy, and human rights.", url: "https://www.youtube.com/@HumanRightsFoundation" },
         ],
       },
       {
         label: "Books",
         type: "grid",
         items: [
-          { title: "Permanent Record", description: "Edward Snowden's account of mass surveillance and its implications.", url: "https://www.goodreads.com/book/show/46223297-permanent-record" },
-          { title: "The Age of Surveillance Capitalism", description: "Shoshana Zuboff on the commodification of personal data.", url: "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism" },
-          { title: "Code: Version 2.0", description: "Lawrence Lessig on how code itself functions as regulation.", url: "https://lessig.org/product/code/" },
-        ],
-      },
-      {
-        label: "Course",
-        type: "single",
-        items: [
-          { title: "Digital Rights Advocacy", description: "Learn to engage with policy processes affecting technology and privacy.", url: "https://www.eff.org/" },
-        ],
-      },
-      {
-        label: "Community",
-        type: "single",
-        items: [
-          { title: "Access Now", description: "Global organisation defending digital rights of users at risk.", url: "https://www.accessnow.org/" },
+          { title: "The Code of Capital", description: "Katharina Pistor on how law creates wealth and inequality.", url: "https://www.goodreads.com/book/show/44030131-the-code-of-capital" },
+          { title: "Broken Money", description: "Lyn Alden on the history and future of monetary systems.", url: "https://www.lynalden.com/broken-money/" },
+          { title: "Digital Cash", description: "Finn Brunton on the history of electronic money and cryptography.", url: "https://www.goodreads.com/book/show/40715636-digital-cash" },
         ],
       },
     ],
@@ -216,44 +196,39 @@ export const personas: Persona[] = [
     description: "You turn complexity into clarity. Where others see jargon, you see an opportunity to build understanding. You know that knowledge is the first step on any path, and you have the patience to walk alongside someone as they take it.",
     sections: [
       {
-        label: "Videos",
+        label: "Courses",
         type: "grid",
         items: [
-          { title: "But How Does Bitcoin Actually Work?", description: "3Blue1Brown's visual explanation of Bitcoin's mathematical foundations.", url: "https://www.youtube.com/watch?v=bBC-nXj3Ng4" },
-          { title: "Teaching Bitcoin", description: "Approaches to explaining decentralised technology to newcomers.", url: "https://www.youtube.com/results?search_query=teaching+bitcoin+beginners" },
-          { title: "Digital Literacy for Everyone", description: "Frameworks for making technology education accessible.", url: "https://www.youtube.com/results?search_query=digital+literacy+education" },
+          { title: "Bitcoin Core Principles", description: "Foundational course on Bitcoin's technical and philosophical principles.", url: "https://libreriadesatoshi.com/" },
+          { title: "Saylor Academy – Bitcoin Course", description: "Free, comprehensive Bitcoin course suitable for all levels.", url: "https://learn.saylor.org/course/view.php?id=468" },
+          { title: "Crack the Orange", description: "Interactive Bitcoin education programme for curious minds.", url: "https://www.cracktheorange.com/" },
         ],
       },
       {
         label: "Articles",
         type: "grid",
         items: [
-          { title: "Explain Bitcoin Like I'm Five", description: "The art of simplifying complex technical concepts.", url: "https://medium.com/free-code-camp/explain-bitcoin-like-im-five-73b4257ac833" },
-          { title: "The Feynman Technique", description: "A learning method that forces clarity through teaching.", url: "https://fs.blog/feynman-technique/" },
-          { title: "Open Educational Resources", description: "The movement to make learning materials freely available.", url: "https://www.unesco.org/en/open-educational-resources" },
+          { title: "Lyn Alden – Bitcoin Macro Essays", description: "Macroeconomic analysis of Bitcoin's role in the global financial system.", url: "https://www.lynalden.com/bitcoin/" },
+          { title: "Mi Primer Bitcoin – Curriculum", description: "Open-source Bitcoin education curriculum used worldwide.", url: "https://miprimerbitcoin.io/" },
+          { title: "River – Bitcoin Education Library", description: "Comprehensive library of Bitcoin educational resources.", url: "https://river.com/learn/" },
+        ],
+      },
+      {
+        label: "Videos",
+        type: "grid",
+        items: [
+          { title: "Andreas Antonopoulos – Bitcoin Q&A", description: "Accessible answers to common Bitcoin questions for all audiences.", url: "https://www.youtube.com/@aantonop" },
+          { title: "Saifedean Ammous – Bitcoin Economics", description: "Lectures and discussions on the economics of Bitcoin.", url: "https://saifedean.com/podcast" },
+          { title: "Bitcoin Beach – Dare to Dream", description: "Documentary on grassroots Bitcoin adoption in El Salvador.", url: "https://daretodream-film.com/" },
         ],
       },
       {
         label: "Books",
         type: "grid",
         items: [
+          { title: "The Internet of Money", description: "Andreas Antonopoulos on why Bitcoin matters beyond technology.", url: "https://theinternetofmoney.info/" },
           { title: "The Bitcoin Standard", description: "Saifedean Ammous's economic history and argument for Bitcoin.", url: "https://saifedean.com/thebitcoinstandard/" },
-          { title: "Pedagogy of the Oppressed", description: "Paulo Freire's transformative vision of education as liberation.", url: "https://www.goodreads.com/book/show/72657.Pedagogy_of_the_Oppressed" },
-          { title: "Inventing Bitcoin", description: "Yan Pritzker's accessible introduction to how Bitcoin works.", url: "https://www.inventingbitcoin.com/" },
-        ],
-      },
-      {
-        label: "Course",
-        type: "single",
-        items: [
-          { title: "Saylor Academy: Bitcoin for Everybody", description: "Free, comprehensive Bitcoin course suitable for all levels.", url: "https://learn.saylor.org/course/PRDV151" },
-        ],
-      },
-      {
-        label: "Community",
-        type: "single",
-        items: [
-          { title: "Bitcoin Education Network", description: "Educators sharing resources and approaches for teaching freedom tech.", url: "https://miprimerbitcoin.io/" },
+          { title: "Broken Money", description: "Lyn Alden on the history and future of monetary systems.", url: "https://www.lynalden.com/broken-money/" },
         ],
       },
     ],
@@ -264,44 +239,39 @@ export const personas: Persona[] = [
     description: "You see technology as a shield, not a sword. For you, encryption is not abstract — it protects journalists, activists, and dissidents. You work at the intersection of technology and human dignity, where the stakes are not theoretical but lived.",
     sections: [
       {
-        label: "Videos",
+        label: "Courses",
         type: "grid",
         items: [
-          { title: "Bitcoin as a Tool for Human Rights", description: "Alex Gladstein on how Bitcoin enables financial freedom under authoritarianism.", url: "https://www.youtube.com/results?search_query=alex+gladstein+bitcoin+human+rights" },
-          { title: "Digital Security for Activists", description: "Practical operational security for people working in hostile environments.", url: "https://www.youtube.com/results?search_query=digital+security+activists" },
-          { title: "Surveillance and Resistance", description: "How communities resist digital authoritarianism.", url: "https://www.youtube.com/results?search_query=surveillance+resistance+technology" },
+          { title: "Self Custody: Reclaim Your Bitcoin Sovereignty", description: "Learn to take full control of your Bitcoin with self-custody.", url: "https://libreriadesatoshi.com/" },
+          { title: "Cashu para Principiantes", description: "Introduction to Cashu ecash for private, accessible payments.", url: "https://libreriadesatoshi.com/" },
+          { title: "HRF – Bitcoin Development Fund", description: "Supporting open-source Bitcoin development for human rights.", url: "https://hrf.org/devfund/" },
         ],
       },
       {
         label: "Articles",
         type: "grid",
         items: [
-          { title: "Check Your Financial Privilege", description: "Alex Gladstein on Bitcoin as a humanitarian tool.", url: "https://bitcoinmagazine.com/culture/check-your-financial-privilege" },
-          { title: "Digital Defenders Partnership", description: "Emergency support for human rights defenders under digital threat.", url: "https://www.digitaldefenders.org/" },
-          { title: "Surveillance Self-Defense", description: "EFF's guide to protecting yourself from digital surveillance.", url: "https://ssd.eff.org/" },
+          { title: "HRF – Financial Freedom Case Studies", description: "Real-world case studies of Bitcoin enabling financial freedom.", url: "https://hrf.org/programs/financial-freedom/" },
+          { title: "Bitcoin Beach – Impact Stories", description: "Stories of Bitcoin's impact on communities in El Salvador.", url: "https://bitcoinbeach.com/" },
+          { title: "HRF – Bitcoin Dev Fund 5-Year Report", description: "Five years of funding open-source Bitcoin development for freedom.", url: "https://hrf.org/latest/bitcoin-development-fund-5-year-report/" },
+        ],
+      },
+      {
+        label: "Videos",
+        type: "grid",
+        items: [
+          { title: "Bitcoin Beach – Dare to Dream", description: "Documentary on grassroots Bitcoin adoption in El Salvador.", url: "https://daretodream-film.com/" },
+          { title: "Farida Nabourema – Bitcoin and Activism", description: "How Bitcoin empowers activists fighting authoritarian regimes.", url: "https://nabourema.info/" },
+          { title: "Oslo Freedom Forum – Financial Freedom", description: "Talks on financial freedom, policy, and human rights.", url: "https://oslofreedomforum.com/" },
         ],
       },
       {
         label: "Books",
         type: "grid",
         items: [
-          { title: "The Quiet Before", description: "Gal Beckerman on how activists have always used technology to organise.", url: "https://www.goodreads.com/book/show/58438583-the-quiet-before" },
-          { title: "Twitter and Tear Gas", description: "Zeynep Tufekci on the power and fragility of networked protest.", url: "https://www.twitterandteargas.org/" },
-          { title: "Cypherpunks: Freedom and the Future of the Internet", description: "Julian Assange on cryptography as a tool for liberation.", url: "https://www.goodreads.com/book/show/16153182-cypherpunks" },
-        ],
-      },
-      {
-        label: "Course",
-        type: "single",
-        items: [
-          { title: "Frontline Defenders Protection", description: "Security training for human rights defenders working in hostile environments.", url: "https://www.frontlinedefenders.org/" },
-        ],
-      },
-      {
-        label: "Community",
-        type: "single",
-        items: [
-          { title: "Human Rights Foundation", description: "Organisation at the intersection of technology, freedom, and human rights.", url: "https://hrf.org/" },
+          { title: "Digital Cash", description: "Finn Brunton on the history of electronic money and cryptography.", url: "https://www.goodreads.com/book/show/40715636-digital-cash" },
+          { title: "Broken Money", description: "Lyn Alden on the history and future of monetary systems.", url: "https://www.lynalden.com/broken-money/" },
+          { title: "The Internet of Money", description: "Andreas Antonopoulos on why Bitcoin matters beyond technology.", url: "https://theinternetofmoney.info/" },
         ],
       },
     ],
@@ -312,44 +282,39 @@ export const personas: Persona[] = [
     description: "Every path starts with a first step. You are curious about freedom tech but not yet sure where you fit. That uncertainty is not weakness — it is honesty. The best pilgrims are the ones who begin without knowing the destination.",
     sections: [
       {
-        label: "Videos",
+        label: "Courses",
         type: "grid",
         items: [
-          { title: "What Is Bitcoin?", description: "A calm, clear introduction to Bitcoin without the hype.", url: "https://www.youtube.com/results?search_query=what+is+bitcoin+explained+simply" },
-          { title: "Why Privacy Matters", description: "Understanding why digital privacy is a fundamental right.", url: "https://www.youtube.com/results?search_query=why+privacy+matters+ted" },
-          { title: "What Is Open Source?", description: "How collaborative software development changes the world.", url: "https://www.youtube.com/results?search_query=what+is+open+source+explained" },
+          { title: "Get and Use Bitcoin", description: "Hands-on workshop to get started with Bitcoin in minutes.", url: "https://libreriadesatoshi.com/" },
+          { title: "Bitcoin Technical Foundations", description: "Build a solid technical understanding of how Bitcoin works.", url: "https://libreriadesatoshi.com/" },
+          { title: "Mi Primer Bitcoin – Bitcoin Diploma", description: "Comprehensive Bitcoin education programme for all levels.", url: "https://miprimerbitcoin.io/" },
         ],
       },
       {
         label: "Articles",
         type: "grid",
         items: [
-          { title: "Bitcoin in One Lesson", description: "The simplest possible explanation of why Bitcoin exists.", url: "https://bitcoin.org/en/how-it-works" },
-          { title: "The Case for Digital Privacy", description: "Why everyone should care about their digital footprint.", url: "https://ssd.eff.org/module/why-metadata-matters" },
-          { title: "Freedom Tech Starter Guide", description: "An overview of tools that respect your autonomy.", url: "https://www.eff.org/pages/tools" },
+          { title: "River – Beginner Guides", description: "Clear, accessible guides to understanding Bitcoin basics.", url: "https://river.com/learn/" },
+          { title: "Lyn Alden – Macro Explainer", description: "Bitcoin explained through the lens of macroeconomics.", url: "https://www.lynalden.com/bitcoin/" },
+          { title: "Mastering Bitcoin Ch. 1–2", description: "The first two chapters of the definitive Bitcoin technical guide.", url: "https://github.com/bitcoinbook/bitcoinbook" },
+        ],
+      },
+      {
+        label: "Videos",
+        type: "grid",
+        items: [
+          { title: "Andreas Antonopoulos – Intro to Bitcoin", description: "One of the best introductions to Bitcoin and why it matters.", url: "https://www.youtube.com/watch?v=l1si5ZWLgy0" },
+          { title: "Bitcoin Beach – Dare to Dream", description: "Documentary on grassroots Bitcoin adoption in El Salvador.", url: "https://daretodream-film.com/" },
+          { title: "Lyn Alden – Broken Money Talk", description: "Talk on the history of money and why Bitcoin is different.", url: "https://onrampbitcoin.com/research/broken-money-with-lyn-alden-the-technological-arc-of-money-and-power" },
         ],
       },
       {
         label: "Books",
         type: "grid",
         items: [
-          { title: "The Little Bitcoin Book", description: "A short, accessible introduction to Bitcoin for anyone.", url: "https://littlebitcoinbook.com/" },
-          { title: "Digital Minimalism", description: "Cal Newport on reclaiming your attention from technology.", url: "https://www.goodreads.com/book/show/40672036-digital-minimalism" },
           { title: "Inventing Bitcoin", description: "Yan Pritzker's step-by-step explanation of how Bitcoin works.", url: "https://www.inventingbitcoin.com/" },
-        ],
-      },
-      {
-        label: "Course",
-        type: "single",
-        items: [
-          { title: "Bitcoin for Everybody", description: "Free, self-paced course that assumes no prior knowledge.", url: "https://learn.saylor.org/course/PRDV151" },
-        ],
-      },
-      {
-        label: "Community",
-        type: "single",
-        items: [
-          { title: "Find a Local Bitcoin Meetup", description: "The best way to learn is from people. Find a group near you.", url: "https://bitcoin.org/en/events" },
+          { title: "Broken Money", description: "Lyn Alden on the history and future of monetary systems.", url: "https://www.lynalden.com/broken-money/" },
+          { title: "The Internet of Money", description: "Andreas Antonopoulos on why Bitcoin matters beyond technology.", url: "https://theinternetofmoney.info/" },
         ],
       },
     ],
