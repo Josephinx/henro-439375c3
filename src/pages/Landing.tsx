@@ -19,24 +19,27 @@ export default function Landing() {
             <div className="mb-8">
               <HenroLogo size="xl" />
             </div>
-            <h1 className="font-heading text-[28px] sm:text-[36px] font-semibold text-foreground leading-tight mb-6">
+            <h1 className="font-heading text-[32px] sm:text-[42px] font-semibold text-foreground leading-tight mb-6">
               Find your path in bitcoin...
             </h1>
-            <p className="font-body text-text-secondary text-base leading-[1.7] mb-4">
+            <p className="font-body text-text-secondary text-base leading-[1.7] mb-2">
               Freedom tech needs more than code.
             </p>
-            <p className="font-body text-text-secondary text-base leading-[1.7] mb-4">
+            <p className="font-body text-text-secondary text-base leading-[1.7] mb-2">
               It needs designers, educators, community builders, policy advocates, and human rights workers.
             </p>
             <p className="font-body text-text-secondary text-base leading-[1.7] mb-10">
               Discover where your skills fit and get the resources to start your journey as a contributor.
             </p>
-            <Link
-              to="/survey"
-              className="inline-block px-8 py-3 rounded-lg border border-border text-text-secondary font-body text-sm tracking-wide uppercase transition-colors duration-200 hover:border-accent hover:text-accent"
-            >
-              Begin
-            </Link>
+            <div>
+              <Link
+                to="/survey"
+                className="inline-block px-10 py-3 rounded-full border border-accent/40 text-foreground font-body text-sm tracking-wide uppercase transition-colors duration-200 hover:border-accent hover:text-accent"
+              >
+                Begin
+              </Link>
+              <p className="font-body text-text-secondary text-xs mt-3 ml-1 opacity-70">Takes 2 minutes.</p>
+            </div>
           </div>
         </div>
       </div>
