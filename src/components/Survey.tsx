@@ -3,6 +3,7 @@ import { questions } from "../data/questions";
 import { calculatePersona } from "../utils/scoring";
 import { useNavigate } from "react-router-dom";
 import AnalysingScreen from "./AnalysingScreen";
+import HenroLogo from "./HenroLogo";
 
 export default function Survey() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -83,6 +84,11 @@ export default function Survey() {
           className="h-full bg-accent transition-all duration-300 ease-out"
           style={{ width: `${progress}%` }}
         />
+      </div>
+
+      {/* Logo */}
+      <div className="px-6 pt-6">
+        <HenroLogo />
       </div>
 
       {/* Question area */}
