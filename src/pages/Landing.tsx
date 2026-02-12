@@ -20,7 +20,7 @@ export default function Landing() {
               <HenroLogo size="xl" />
             </div>
             <h1 className="text-[28px] sm:text-[36px] font-normal text-foreground leading-tight mb-6" style={{ fontFamily: "'DM Serif Display', serif" }}>
-              Find your path...
+              Find your path in bitcoin...
             </h1>
             <p className="font-body text-text-secondary text-base leading-[1.7] mb-4">
               Freedom tech needs more than code.
