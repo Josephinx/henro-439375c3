@@ -19,7 +19,7 @@ export default function Landing() {
             <div className="mb-8">
               <HenroLogo size="xl" />
             </div>
-            <h1 className="text-[28px] sm:text-[36px] font-normal text-foreground leading-tight mb-6" style={{ fontFamily: "'Instrument Serif', serif" }}>
+            <h1 className="text-[28px] sm:text-[36px] font-normal italic text-foreground leading-tight mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
               Find your path...
             </h1>
             <p className="font-body text-text-secondary text-base leading-[1.7] mb-4">
