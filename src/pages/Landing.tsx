@@ -20,8 +20,11 @@ export default function Landing() {
         <div className="flex flex-col md:flex-row items-center gap-12 max-w-5xl w-full">
           {/* Text */}
           <div className="flex-1 max-w-[480px]">
+            <div className="mb-6">
+              <HenroLogo size="large" />
+            </div>
             <h1 className="font-heading text-[28px] sm:text-[36px] font-bold text-foreground leading-tight mb-6">
-              Find your path in freedom tech
+              Find your path
             </h1>
             <p className="font-body text-text-secondary text-base leading-[1.7] mb-10">
               The freedom tech movement needs more than code. It needs designers,
