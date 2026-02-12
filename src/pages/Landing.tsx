@@ -8,7 +8,7 @@ export default function Landing() {
   const { theme, toggle } = useTheme();
 
   return (
-    <div className="min-h-screen h-screen flex flex-row bg-[#F5F0EB] dark:bg-background overflow-hidden">
+    <div className="min-h-screen h-screen flex flex-row bg-[#f4ebe9] dark:bg-background overflow-hidden">
       {/* Left half – text content */}
       <div className="w-1/2 flex flex-col h-full">
         <header className="flex items-center justify-end px-6 py-5">
