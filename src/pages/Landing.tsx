@@ -19,7 +19,7 @@ export default function Landing() {
             <div className="mb-8">
               <HenroLogo size="xl" />
             </div>
-            <h1 className="text-[28px] sm:text-[36px] font-normal text-foreground leading-tight mb-6" style={{ fontFamily: "'DM Serif Display', serif" }}>
+            <h1 className="font-heading text-[28px] sm:text-[36px] font-semibold text-foreground leading-tight mb-6">
               Find your path in bitcoin...
             </h1>
             <p className="font-body text-text-secondary text-base leading-[1.7] mb-4">

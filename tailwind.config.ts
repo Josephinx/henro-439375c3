@@ -55,8 +55,8 @@ export default {
       },
       fontFamily: {
         logo: ["'Kalam'", "cursive"],
-        heading: ["'Instrument Sans'", "sans-serif"],
-        body: ["'Instrument Sans'", "sans-serif"],
+        heading: ["'Source Serif 4'", "serif"],
+        body: ["'Source Sans 3'", "sans-serif"],
         mono: ["'JetBrains Mono'", "monospace"],
       },
       borderRadius: {
