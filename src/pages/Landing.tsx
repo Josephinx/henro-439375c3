@@ -11,7 +11,7 @@ export default function Landing() {
     <div className="min-h-screen h-screen flex flex-row bg-[#fdf9f7] dark:bg-background overflow-hidden">
       {/* Left half – text content */}
       <div className="w-1/2 flex flex-col h-full">
-        <header className="flex items-center justify-end px-6 py-5">
+        <header className="flex items-center justify-start px-6 py-5">
           <ThemeToggle theme={theme} toggle={toggle} />
         </header>
         <div className="flex-1 flex items-center justify-center px-12">
