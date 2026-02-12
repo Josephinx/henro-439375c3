@@ -11,7 +11,7 @@ export default function Header({ theme, toggleTheme }: HeaderProps) {
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <div className="max-w-5xl mx-auto px-6 h-14 flex items-center justify-between">
         <a href="/" className="block">
-          <HenroLogo variant="muted" />
+          <HenroLogo variant="muted" size="large" />
         </a>
         <ThemeToggle theme={theme} toggle={toggleTheme} />
       </div>

@@ -91,7 +91,7 @@ export default function Survey() {
 
       {/* Navbar */}
       <div className="px-6 pt-4 flex items-center justify-between">
-        <a href="/"><HenroLogo variant="muted" /></a>
+        <a href="/"><HenroLogo variant="muted" size="large" /></a>
         <ThemeToggle theme={theme} toggle={toggle} />
       </div>
 
