@@ -21,8 +21,8 @@ export default function Landing() {
         <ThemeToggle theme={theme} toggle={toggle} />
       </header>
 
-      {/* Copy – top right */}
-      <div className="absolute top-0 left-0 z-10 px-12 py-16 max-w-[440px]">
+      {/* Copy – left side, inset from edge */}
+      <div className="absolute top-0 left-[12%] z-10 py-16 max-w-[400px]">
         <div className="mb-8">
           <HenroLogo size="xl" />
         </div>
@@ -38,14 +38,14 @@ export default function Landing() {
         <p className="font-body text-text-secondary text-base leading-[1.7] mb-10">
           Discover where your skills fit and get the resources to start your journey as a contributor.
         </p>
-        <div>
+        <div className="flex flex-col items-start">
           <Link
             to="/survey"
             className="inline-block px-10 py-3 rounded-full border border-accent/40 text-foreground font-body text-sm tracking-wide uppercase transition-colors duration-200 hover:border-accent hover:text-accent"
           >
             Begin
           </Link>
-          <p className="font-body text-text-secondary text-xs mt-3 ml-1 opacity-70">Takes 2 minutes.</p>
+          <p className="font-body text-text-secondary text-xs mt-3 opacity-70 w-full text-center" style={{ maxWidth: '130px' }}>Takes 2 minutes.</p>
         </div>
       </div>
     </div>
