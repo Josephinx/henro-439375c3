@@ -51,15 +51,6 @@ export const personas: Persona[] = [
         ],
       },
       {
-        label: "Tools",
-        type: "grid",
-        items: [
-          { title: "Bitcoin Core", description: "The reference implementation of the Bitcoin protocol.", url: "https://bitcoincore.org/" },
-          { title: "LND (Lightning Network Daemon)", description: "A complete implementation of a Lightning Network node.", url: "https://github.com/lightningnetwork/lnd" },
-          { title: "Nostr Development Kit", description: "Libraries and tools for building on the Nostr protocol.", url: "https://github.com/nostr-dev-kit/ndk" },
-        ],
-      },
-      {
         label: "Course",
         type: "single",
         items: [
@@ -105,15 +96,6 @@ export const personas: Persona[] = [
           { title: "Don't Make Me Think", description: "Steve Krug's seminal work on web usability and intuitive design.", url: "https://sensible.com/dont-make-me-think/" },
           { title: "Design Justice", description: "Sasha Costanza-Chock on community-led design and structural equity.", url: "https://designjustice.org/" },
           { title: "The Design of Everyday Things", description: "Don Norman's exploration of human-centred design principles.", url: "https://www.goodreads.com/book/show/840.The_Design_of_Everyday_Things" },
-        ],
-      },
-      {
-        label: "Tools",
-        type: "grid",
-        items: [
-          { title: "Bitcoin Icons", description: "Open-source icon set designed specifically for Bitcoin applications.", url: "https://bitcoinicons.com/" },
-          { title: "Bitcoin UI Kit", description: "Figma components for designing Bitcoin products.", url: "https://bitcoin.design/" },
-          { title: "Penpot", description: "Open-source design and prototyping platform.", url: "https://penpot.app/" },
         ],
       },
       {
@@ -165,15 +147,6 @@ export const personas: Persona[] = [
         ],
       },
       {
-        label: "Tools",
-        type: "grid",
-        items: [
-          { title: "Meetup.com Alternatives", description: "Freedom-respecting tools for organising community events.", url: "https://gettogether.community/" },
-          { title: "Signal", description: "Encrypted group messaging for community coordination.", url: "https://signal.org/" },
-          { title: "Matrix/Element", description: "Decentralised chat platform for open communities.", url: "https://element.io/" },
-        ],
-      },
-      {
         label: "Course",
         type: "single",
         items: [
@@ -219,15 +192,6 @@ export const personas: Persona[] = [
           { title: "Permanent Record", description: "Edward Snowden's account of mass surveillance and its implications.", url: "https://www.goodreads.com/book/show/46223297-permanent-record" },
           { title: "The Age of Surveillance Capitalism", description: "Shoshana Zuboff on the commodification of personal data.", url: "https://www.goodreads.com/book/show/26195941-the-age-of-surveillance-capitalism" },
           { title: "Code: Version 2.0", description: "Lawrence Lessig on how code itself functions as regulation.", url: "https://lessig.org/product/code/" },
-        ],
-      },
-      {
-        label: "Tools",
-        type: "grid",
-        items: [
-          { title: "Tor Browser", description: "Browse the internet without surveillance or censorship.", url: "https://www.torproject.org/" },
-          { title: "EFF Action Center", description: "Take direct action on digital rights legislation.", url: "https://act.eff.org/" },
-          { title: "GnuPG", description: "Free implementation of the OpenPGP standard for encrypted communication.", url: "https://gnupg.org/" },
         ],
       },
       {
@@ -279,15 +243,6 @@ export const personas: Persona[] = [
         ],
       },
       {
-        label: "Tools",
-        type: "grid",
-        items: [
-          { title: "Mi Primer Bitcoin", description: "Open-source Bitcoin education curriculum used worldwide.", url: "https://miprimerbitcoin.io/" },
-          { title: "Miro", description: "Visual collaboration tool for creating educational workshops.", url: "https://miro.com/" },
-          { title: "OBS Studio", description: "Open-source software for recording educational content.", url: "https://obsproject.com/" },
-        ],
-      },
-      {
         label: "Course",
         type: "single",
         items: [
@@ -336,15 +291,6 @@ export const personas: Persona[] = [
         ],
       },
       {
-        label: "Tools",
-        type: "grid",
-        items: [
-          { title: "Tails OS", description: "Portable operating system that protects against surveillance.", url: "https://tails.net/" },
-          { title: "Briar", description: "Peer-to-peer encrypted messaging that works without internet.", url: "https://briarproject.org/" },
-          { title: "OnionShare", description: "Securely share files, host websites, and chat anonymously.", url: "https://onionshare.org/" },
-        ],
-      },
-      {
         label: "Course",
         type: "single",
         items: [
@@ -390,15 +336,6 @@ export const personas: Persona[] = [
           { title: "The Little Bitcoin Book", description: "A short, accessible introduction to Bitcoin for anyone.", url: "https://littlebitcoinbook.com/" },
           { title: "Digital Minimalism", description: "Cal Newport on reclaiming your attention from technology.", url: "https://www.goodreads.com/book/show/40672036-digital-minimalism" },
           { title: "Inventing Bitcoin", description: "Yan Pritzker's step-by-step explanation of how Bitcoin works.", url: "https://www.inventingbitcoin.com/" },
-        ],
-      },
-      {
-        label: "Tools",
-        type: "grid",
-        items: [
-          { title: "Signal Messenger", description: "Start with encrypted messaging. It takes two minutes.", url: "https://signal.org/" },
-          { title: "Firefox", description: "A privacy-respecting web browser you can use today.", url: "https://www.mozilla.org/firefox/" },
-          { title: "Proton Mail", description: "Encrypted email that is as easy to use as Gmail.", url: "https://proton.me/" },
         ],
       },
       {
