@@ -8,22 +8,19 @@ export default function Landing() {
   const { theme, toggle } = useTheme();
 
   return (
-    <div className="min-h-screen h-screen flex flex-col bg-[#F5F0EB] dark:bg-background overflow-hidden">
-      {/* Theme toggle */}
-      <header className="flex items-center justify-end px-6 py-5">
-        <ThemeToggle theme={theme} toggle={toggle} />
-      </header>
-
-      {/* Main content */}
-      <main className="flex-1 flex items-center justify-center px-6">
-        <div className="flex flex-col md:flex-row items-center gap-12 max-w-5xl w-full">
-          {/* Text */}
-          <div className="flex-1 max-w-[480px]">
+    <div className="min-h-screen h-screen flex flex-row bg-[#F5F0EB] dark:bg-background overflow-hidden">
+      {/* Left half – text content */}
+      <div className="w-1/2 flex flex-col h-full">
+        <header className="flex items-center justify-end px-6 py-5">
+          <ThemeToggle theme={theme} toggle={toggle} />
+        </header>
+        <div className="flex-1 flex items-center justify-center px-12">
+          <div className="max-w-[480px]">
             <div className="mb-8">
               <HenroLogo size="xl" />
             </div>
             <h1 className="font-heading text-[28px] sm:text-[36px] font-bold text-foreground leading-tight mb-6">
-              Find your path
+              Find your path...
             </h1>
             <p className="font-body text-text-secondary text-base leading-[1.7] mb-10">
               The freedom tech movement needs more than code. It needs designers,
@@ -38,17 +35,17 @@ export default function Landing() {
               Begin
             </Link>
           </div>
-
-          {/* Hero image */}
-          <div className="flex-1 flex justify-center max-w-[400px]">
-            <img
-              src={heroPath}
-              alt="A winding pilgrimage path through a torii gate and mountainous landscape"
-              className="w-full h-auto max-h-[60vh] object-contain opacity-90"
-            />
-          </div>
         </div>
-      </main>
+      </div>
+
+      {/* Right half – hero image edge-to-edge */}
+      <div className="w-1/2 h-full">
+        <img
+          src={heroPath}
+          alt="A lone figure on a winding path toward a mountain with a red sun"
+          className="w-full h-full object-cover"
+        />
+      </div>
     </div>
   );
 }
