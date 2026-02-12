@@ -22,7 +22,7 @@ export default function Landing() {
       </header>
 
       {/* Copy – top right */}
-      <div className="absolute top-0 right-0 z-10 px-12 py-16 max-w-[440px]">
+      <div className="absolute top-0 left-0 z-10 px-12 py-16 max-w-[440px]">
         <div className="mb-8">
           <HenroLogo size="xl" />
         </div>
