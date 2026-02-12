@@ -1,15 +1,18 @@
 interface HenroLogoProps {
   variant?: "dark" | "light" | "muted";
+  size?: "default" | "large";
 }
 
-export default function HenroLogo({ variant = "dark" }: HenroLogoProps) {
+export default function HenroLogo({ variant = "dark", size = "default" }: HenroLogoProps) {
   const textColor =
     variant === "muted"
       ? "hsl(var(--text-secondary))"
       : "hsl(var(--text-primary))";
 
+  const sizeClass = size === "large" ? "w-48" : "w-32";
+
   return (
-    <svg viewBox="0 0 320 40" className="w-32" style={{ overflow: "visible" }}>
+    <svg viewBox="0 0 320 40" className={sizeClass} style={{ overflow: "visible" }}>
       <text
         x="0"
         y="26"
