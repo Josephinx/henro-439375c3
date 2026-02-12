@@ -4,8 +4,11 @@ import { calculatePersona } from "../utils/scoring";
 import { useNavigate } from "react-router-dom";
 import AnalysingScreen from "./AnalysingScreen";
 import HenroLogo from "./HenroLogo";
+import ThemeToggle from "./ThemeToggle";
+import { useTheme } from "../hooks/useTheme";
 
 export default function Survey() {
+  const { theme, toggle } = useTheme();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<number[]>([]);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -86,9 +89,10 @@ export default function Survey() {
         />
       </div>
 
-      {/* Logo */}
-      <div className="px-6 pt-6">
-        <HenroLogo />
+      {/* Navbar */}
+      <div className="px-6 pt-4 flex items-center justify-between">
+        <a href="/"><HenroLogo variant="muted" /></a>
+        <ThemeToggle theme={theme} toggle={toggle} />
       </div>
 
       {/* Question area */}
